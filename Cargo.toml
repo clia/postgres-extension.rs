@@ -6,7 +6,7 @@ authors = ["Daniel Fagnan <dnfagnan@gmail.com>"]
 
 [lib]
 name = "postgres_extension"
-crate-type = ["dylib"]
+crate-type = ["rlib"]
 
 [dependencies]
 libc = "*"
